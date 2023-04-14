@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TapApp.MainPage">
+
+    <StackLayout>
+        <Grid RowSpacing="0" ColumnSpacing="0" Margin="0" Padding="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0.25*"/>
+                <ColumnDefinition Width="0.25*"/>
+                <ColumnDefinition Width="0.25*"/>
+                <ColumnDefinition Width="0.25*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="0.2*"/>
+                <RowDefinition Height="0.1*"/>
+                <RowDefinition Height="0.05*"/>
+                <RowDefinition Height="0.05*"/>
+                <RowDefinition Height="0.15*"/>
+                <RowDefinition Height="0.05*"/>
+                <RowDefinition Height="0.05*"/>
+                <RowDefinition Height="0.1*"/>
+                <RowDefinition Height="0.2*"/>
+            </Grid.RowDefinitions>
+            <Button Text="." x:Name="Dot_1" ClassId="Dot_1" Clicked="Add_Dot" Grid.Row="0" Grid.ColumnSpan="2" VerticalOptions="FillAndExpand" FontSize="100" />
+            <Button Text="-" x:Name="Dash_1" ClassId="Dash_1" Clicked="Add_Dash" Grid.Row="0" Grid.Column="2" Grid.ColumnSpan="2" VerticalOptions="FillAndExpand" FontSize="100"/>
+            <Button Text="␣" x:Name="Space_1" ClassId="Space_1" Clicked="Convert" Grid.Row="1" Grid.ColumnSpan="4" VerticalOptions="FillAndExpand" FontSize="40"/>
+            <Label Text="" x:Name="Dots_Dashes_1" HorizontalOptions="CenterAndExpand" FontSize="Large" Grid.Row="2" Grid.ColumnSpan="4"/>
+            <Label Text="" x:Name="Converted_1" HorizontalOptions="CenterAndExpand" FontSize="Medium" Grid.Row="3" Grid.ColumnSpan="4"/>
+            <Button Text="Clear Above" x:Name="Delete_1" ClassId="Delete_1" Clicked="Clear_Text" Grid.Row="4" Grid.ColumnSpan="1" VerticalOptions="FillAndExpand" FontSize="20" />
+            <Button Text="Clear Below" x:Name="Delete_2" ClassId="Delete_2" Clicked="Clear_Text" Grid.Row="4" Grid.Column="3" Grid.ColumnSpan="1" VerticalOptions="FillAndExpand" FontSize="20" />
+            <Image Grid.Row="4" Grid.Column="1" Grid.ColumnSpan="2" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" x:Name="Logo" Source="logo.png"/>
+            <Label Text="" x:Name="Dots_Dashes_2" HorizontalOptions="CenterAndExpand" FontSize="Large" Grid.Row="5" Grid.ColumnSpan="4"/>
+            <Label Text="" x:Name="Converted_2" HorizontalOptions="CenterAndExpand" FontSize="Medium" Grid.Row="6" Grid.ColumnSpan="4"/>
+            <Button Text="␣" x:Name="Space_2" ClassId="Space_2" Clicked="Convert" Grid.Row="7" Grid.ColumnSpan="4" VerticalOptions="FillAndExpand" FontSize="40"/>
+            <Button Text="-" x:Name="Dash_2" ClassId="Dash_2" Clicked="Add_Dash" Grid.Row="8" Grid.Column="2" Grid.ColumnSpan="2" VerticalOptions="FillAndExpand" FontSize="100"/>
+            <Button Text="." x:Name="Dot_2" ClassId="Dot_2" Clicked="Add_Dot" Grid.Row="8" Grid.ColumnSpan="2" VerticalOptions="FillAndExpand" FontSize="100" />
+        </Grid>
+    </StackLayout>
+
+</ContentPage>

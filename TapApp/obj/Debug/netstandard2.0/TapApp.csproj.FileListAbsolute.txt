@@ -1,0 +1,15 @@
+C:\Users\Anthony\source\repos\TapApp\TapApp\obj\Debug\netstandard2.0\TapApp.csproj.AssemblyReference.cache
+C:\Users\Anthony\source\repos\TapApp\TapApp\obj\Debug\netstandard2.0\TapApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Anthony\source\repos\TapApp\TapApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Anthony\source\repos\TapApp\TapApp\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Anthony\source\repos\TapApp\TapApp\obj\Debug\netstandard2.0\TapApp.AssemblyInfoInputs.cache
+C:\Users\Anthony\source\repos\TapApp\TapApp\obj\Debug\netstandard2.0\TapApp.AssemblyInfo.cs
+C:\Users\Anthony\source\repos\TapApp\TapApp\obj\Debug\netstandard2.0\TapApp.csproj.CoreCompileInputs.cache
+C:\Users\Anthony\source\repos\TapApp\TapApp\obj\Debug\netstandard2.0\TapApp.dll
+C:\Users\Anthony\source\repos\TapApp\TapApp\obj\Debug\netstandard2.0\ref\TapApp.dll
+C:\Users\Anthony\source\repos\TapApp\TapApp\obj\Debug\netstandard2.0\TapApp.pdb
+C:\Users\Anthony\source\repos\TapApp\TapApp\bin\Debug\netstandard2.0\TapApp.deps.json
+C:\Users\Anthony\source\repos\TapApp\TapApp\bin\Debug\netstandard2.0\TapApp.dll
+C:\Users\Anthony\source\repos\TapApp\TapApp\bin\Debug\netstandard2.0\ref\TapApp.dll
+C:\Users\Anthony\source\repos\TapApp\TapApp\bin\Debug\netstandard2.0\TapApp.pdb
+C:\Users\Anthony\source\repos\TapApp\TapApp\obj\Debug\netstandard2.0\XamlC.stamp
